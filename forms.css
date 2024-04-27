@@ -1,0 +1,348 @@
+  
+    .header h1{
+        height:20%;
+        width: auto;
+        font-size: 40px;
+        text-align: center;
+        color: #DC453D;
+        background-color: #FDFD96;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        font-family: Georgia;
+        text-shadow: 1px 2px white;
+    }
+    
+    .header hr{
+    height: 5px;
+    width: auto;
+    border: none;
+    background-color: #DC453D;
+    margin-bottom: 0px;
+    margin-top: -2px; 
+    }
+
+    .top_button img {
+        position: fixed;
+        bottom: 20px;
+        left: -300px;
+        cursor: pointer;
+        width: 60px;
+        height: auto;
+        opacity: 0.75;
+      }
+    
+      .top_button img:hover{
+        opacity: 1;
+      }
+
+    .container1 {
+       
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 0px 4px 1px #FF6961;
+    }
+
+    .container2 {
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 0px 4px 1px #FF6961;
+    }
+
+    .container3 {
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 0px 4px 1px #FF6961;
+    }
+
+    fieldset {
+      border: none;
+    }
+
+    .order_title{
+        text-align: center;
+        font-family: Georgia;
+    }
+
+    
+
+    /*CONTAINER 1*/
+
+    .customer_info hr{
+        height: 2px;
+        width: 100%;
+        border: none;
+        background-color: #DC453D;
+        margin-bottom: 30px;
+        margin-top: -2px; 
+    }
+    .customer_info legend{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96; 
+    }
+
+    .customer_info label{
+        font-size: 20px;
+        font-family: Helvetica;
+        margin-bottom: 30px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96; 
+    }
+
+    .customer_info input{
+        font-size: 18px;
+        font-family: Helvetica;
+        width: 300px;
+    }
+
+    .customer_info textarea{
+        font-size: 15px;
+        font-family: Helvetica;
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    /*CONTAINER 2*/
+
+    .burger_text1 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 15px;
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .burger_text2 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 5px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .burger_text3 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 15px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+    .bun_text1 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .bun_text2 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .pasta_text1 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .pasta_text2 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 5px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .pasta_text3 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .fries_text1 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 50px; 
+        margin-left: 270px;
+        padding-left: 0px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .drinks_text1 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 30px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .order_form hr{
+        height: 2px;
+        width: 100%;
+        border: none;
+        background-color: #DC453D;
+        margin-bottom: 30px;
+        margin-top: -2px; 
+    }
+
+    .order_form legend{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+    }
+
+    .order_form label{
+        font-size: 20px;
+        font-family: Helvetica;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96; 
+    }
+
+    .order_form input{
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-family: Helvetica;
+    }
+
+    .order_form select{
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-family: Helvetica;
+    }
+
+    .food_name {  
+        font-weight: bold;
+    }
+
+    .burger img{
+        float: left;
+        width: 75px;
+        height: 50px;
+    }
+
+    .pasta img{
+        float: left;
+        width: 75px;
+        height: 50px;
+    }
+
+
+    /*CONTAINER 3*/
+
+    .feedback legend{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Georgia;
+        margin-bottom: 30px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+    }
+
+    .feedback label{
+        font-size: 20px;
+        font-family: Helvetica;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96; 
+    }
+
+    .order_form input{
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-family: Helvetica;
+    }
+
+    input[type=submit], input[type=reset]{
+        background-color: #FDFD96;
+        font-weight: bold;
+        border: solid 2px #DC453D;
+        color: #DC453D;
+        padding: 5px 6px;
+        text-decoration: none;
+        margin: 2px 2px;
+        cursor: pointer;
+    }
+
+    

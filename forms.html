@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="forms.css">
+  <title>Order Form</title>
+  <style>
+    
+  </style>
+</head>
+<body style=" background-image: url('images/forms_bg.png');">
+    <div class="header">
+        <hr id="top">
+        <h1 class="order_title">Burgir & Fries Ni Jaruy</h1>
+        <hr>
+    </div>
+    
+  <form action="#" method="POST">
+    
+    <div class="container1">
+      <div class="customer_info">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <hr>
+            <label for="fullname">Customer Fullname:&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="fullname" name="fullname" maxlength="50" placeholder="Enter Customer Fullname" required><br><br>
+    
+            <label for="address">Complete Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="address" name="address" placeholder="Enter Complete Address" required><br><br>
+    
+            <label for="contact">Contact Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="tel" id="contact" name="contact" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="Enter Contact Number" required><br><br>
+    
+            <label for="email">Email Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email Address" required><br><br>
+    
+            <label for="directions">Description of how to get to the place:</label><br>
+            <textarea id="directions" name="directions" cols="30" rows="4" style="width: 670px;" placeholder="Enter Directions" required></textarea><br><br>
+    
+            <label for="delivery_datetime">Date/Time of Delivery: </label>
+            <input type="datetime-local" id="delivery_datetime" name="delivery_datetime" style="width: 215px; padding-left: 10px;" required><br><br>
+          </fieldset>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="order_form">
+        <fieldset>
+            <legend>Order Form</legend>
+            <hr>
+            <div class="burger">
+              <label class="food_name" for="burgers" style="font-size: 22px;">Burgers:</label><br><br>
+
+              <div class="burger_text1">
+                <p><b>"</b>Indulge in the simplicity of our classic burger, featuring a perfectly seasoned, juicy beef patty cooked to perfection.<b>"</b></p>
+              </div>
+              
+              <img src="images/single_patty.png" alt="single_patty">
+              <input type="checkbox" id="single_patty" name="burgers" value="Single Patty" style="margin-top:20px; margin-left: 10px;">
+              <label for="single_patty">Single Patty</label><br><br><br>
+
+
+              <div class="burger_text2">
+                <p><b>"</b>Elevate your burger experience with our double patty option. Sink your teeth into two succulent beef patties, expertly layered with your favorite toppings. <b>"</b></p>
+              </div>
+
+              <img src="images/double_patty.png" alt="double_patty">
+              <input type="checkbox" id="double_patty" name="burgers" value="Double Patty" style="margin-top:20px; margin-left: 10px;">
+              <label for="double_patty">Double Patty</label><br><br><br>
+
+              <div class="burger_text3">
+                <p><b>"</b>Take your burger to the next level by adding a slice of premium house blend cheese to enhance our juicy and succulent burger.<b>"</b></p>
+              </div>
+
+              <img src="images/cheese.png" alt="cheese">
+              <input type="checkbox" id="with_cheese" name="burgers" value="With Cheese" style="margin-top:20px; margin-left: 10px;">
+              <label for="with_cheese">With Cheese</label><br><br>
+              <!-- Add more burger options here -->
+              <br>
+
+              <hr>
+
+              <label class="food_name" for="bun" style="font-size: 22px;" >Choice of Bun:</label><br><br>
+
+              <div class="bun_text1">
+                <p><b>"</b>Our soft and pillowy white bread bun provides the perfect canvas for your burger masterpiece. Its light texture and subtly sweet flavor complement the savory richness of our burgers.<b>"</b></p>
+              </div>
+
+              <img src="images/white_bread.png" alt="white_bun">
+              <input type="radio" id="white_bun" name="bun" value="White Bun" style="margin-top:20px; margin-left: 10px;">
+              <label for="white_bun">White Bun</label><br><br><br>
+
+              <div class="bun_text2">
+                <p><b>"</b>For a wholesome twist, opt for our hearty wheat bread bun. Made with wholesome grains and seeds, this bun adds a nutty flavor and satisfying chewiness to your burger experience. <b>"</b></p>
+              </div>
+
+              <img src="images/wheat_bread.png" alt="wheat_bun">
+              <input type="radio" id="wheat_bun" name="bun" value="Wheat Bun" style="margin-top:20px; margin-left: 10px;">
+              <label for="wheat_bun">Wheat Bun</label><br><br>
+
+            </div>
+
+            <br>
+            <hr>
+
+            <div class="pasta">
+              <label class="food_name" for="pasta" style="font-size: 22px;">Pasta:</label><br><br>
+
+              <div class="pasta_text1">
+                <p><b>"</b>Indulge in a timeless classic with our spaghetti dish. Delightfully long strands of pasta perfectly cooked to al dente, served with your choice of sauce and toppings.<b>"</b></p>
+              </div>
+
+              <img src="images/carbonara.png" alt="carbonara">
+              <input type="checkbox" id="carbonara" name="pasta" value="Carbonara" style="margin-top:20px; margin-left: 10px;">
+              <label for="carbonara">Carbonara</label><br><br><br>
+
+              <label for="carbonara_quantity">Quantity:</label>
+              <input type="number" id="carbonara_quantity" name="carbonara_quantity" min="1" style="width: 50px; padding-left: 10px;" placeholder="0" required><br><br>
+
+              <div class="pasta_text2">
+                <p><b>"</b>Treat your taste buds to the rich and creamy goodness of our carbonara pasta. Made with tender spaghetti noodles coated in a luscious sauce of eggs, cheese, pancetta, and black pepper, every bite is a decadent delight.<b>"</b></p>
+              </div>
+
+              <img src="images/spaghetti.png" alt="spaghetti">
+              <input type="checkbox" id="spaghetti" name="pasta" value="Spaghetti" style="margin-top:20px; margin-left: 10px;">
+              <label for="Spaghetti">Spaghetti</label><br><br><br>
+
+              <label for="spaghetti_quantity">Quantity:</label>
+              <input type="number" id="spaghetti_quantity" name="spaghetti_quantity" min="1" style="width: 50px; padding-left: 10px;" placeholder="0" required><br><br>
+
+              <div class="pasta_text3">
+                <p><b>"</b>Featuring tender spaghetti noodles tossed in a basil pesto sauce made with fresh basil leaves, garlic, pine nuts, Parmesan cheese, and olive oil.<b>"</b></p>
+              </div>
+
+              <img src="images/pesto.png" alt="pesto">
+              <input type="checkbox" id="pesto" name="pasta" value="Pesto" style="margin-top:20px; margin-left: 10px;">
+              <label for="pesto">Pesto</label><br><br>
+      
+              <label for="pasta_quantity">Quantity:</label>
+              <input type="number" id="pasta_quantity" name="pasta_quantity" min="1" style="width: 50px; padding-left: 10px;" placeholder="0" required><br><br>
+              
+              <br>
+              <hr>
+              
+              <div class="fries_text1">
+                <p><b>"</b>Indulge in our house-made fries, available in a variety of delicious flavors to satisfy every craving. Choose from classic Plain for timeless simplicity, tangy Barbecue for a taste of the grill, creamy Sour Cream for a rich indulgence, or savory Cheese for a gooey delight.<b>"</b></p>
+              </div>
+
+              <label class="food_name" for="fries" style="font-size: 22px;">Fries:</label>
+              <select id="fries_size" name="fries_size" style=" text-align:center;" required><br>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+              </select><br><br>
+
+              <img style="width: 65px; height: 65px;" src="images/fries.png" alt="fries">
+              <label for="fries_flavor">Flavor:</label>
+              <select id="fries_flavor" name="fries_flavor" style=" text-align:center; margin-top:20px; margin-left: 10px;" required ><br>
+                <option value="P">Plain</option>
+                <option value="B">Barbeque</option>
+                <option value="S">SourCream</option>
+                <option value="C">Cheese</option>
+              </select><br><br>
+
+              <label for="fries_quantity">Quantity:</label>
+              <input type="number" id="fries_quantity" name="fries_quantity" min="1" style="width: 50px; padding-left: 10px;" placeholder="0" required><br><br>
+            </div>
+
+            <br>
+            <hr>
+
+            <div class="drinks">
+
+              <div class="drinks_text1">
+                <p><b>"</b>Quench your thirst with our selection of refreshing drinks! From the classic fizz of Coke and Royal to the crisp taste of Sprite and Root Beer, we've got something for everyone. If you're in the mood for something cool and revitalizing, try our refreshing iced tea. Whatever your preference, our drinks are sure to keep you feeling refreshed and satisfied.<b>"</b></p>
+              </div>
+
+              <label class="food_name" for="drinks" style="font-size: 22px;">Drinks:</label>
+              <select id="drinks_type" name="drinks_type" style="text-align:center;" required><br>
+                <option value="C">Coke</option>
+                <option value="S">Sprite</option>
+                <option value="R">Royal</option>
+                <option value="I">Iced Tea</option>
+                <option value="B">Root Beer</option>
+
+                
+              </select><br>
+
+              <img style="margin-bottom:-20px;width: 50px; height: 65px;" src="images/drinks.png" alt="drinks">
+              <label for="drinks_size">Drinks:</label>
+              <select id="drinks_size" name="drinks_size" style=" text-align:center; margin-top:20px; margin-left: 10px;" required ><br>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+              </select><br><br>
+
+              <label for="drink_quantity">Quantity:</label>
+              <input type="number" id="drink_quantity" name="drink_quantity" min="1" style="width: 50px; padding-left: 10px;" placeholder="0" required><br><br>
+            </div>
+            
+          </fieldset>
+      </div>
+    </div>
+
+    <div class="container3">
+        <div class="feedback">
+            <fieldset>
+                <legend>Feedback</legend>
+                <label for="feedback">How can we improve the ordering form?</label><br>
+                <textarea id="feedback" name="feedback" cols="30" rows="4" style="width: 670px;"></textarea><br><br>
+        
+                <label for="proof_payment" >Upload proof of payment:</label><br>
+                <input type="file" id="proof_payment" name="proof_payment" style="margin-top: 10px;" accept="image/*"><br><br>
+        
+                <label for="delivery_rating">Rate our Delivery Service (0-10):</label><br>
+                <input type="range" id="delivery_rating" name="delivery_rating" min="0" max="10" step="1"><br><br>
+        
+                <label for="delivery_option">Delivery or Pick-up:</label><br>
+                <input type="radio" id="delivery" name="delivery_option" value="Delivery">
+                <label for="delivery">Delivery</label><br>
+                <input type="radio" id="pickup" name="delivery_option" value="Pick-up">
+                <label for="pickup">Pick-up</label><br><br>
+        
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Clear Form">
+              </fieldset>
+        </div>
+    </div>
+
+    <a class="top_button" href="#top">
+      <img style="max-width: 100%; height: auto; margin-left: 1430px;" src="images/top_button.png" alt="home button">
+    </a>
+  </form>
+</body>
+</html>
