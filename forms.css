@@ -159,6 +159,48 @@
         padding-right: 280px;
         font-family: Helvetica;
     }
+
+    .burger_text4 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 15px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .burger_text5 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 15px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .burger_text6 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 15px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
     .bun_text1 p{
         position: absolute;
         text-align: justify;
@@ -181,6 +223,34 @@
         text-shadow: 1px 2px #FDFD96;
         line-height: 16px;
         margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .bun_text3 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .bun_text4 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: -10px; 
         margin-left: 220px;
         padding-left: 50px;
         padding-right: 280px;
@@ -216,6 +286,34 @@
     }
 
     .pasta_text3 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .pasta_text4 p{
+        position: absolute;
+        text-align: justify;
+        font-size: 13px;
+        color: #DC453D;
+        text-shadow: 1px 2px #FDFD96;
+        line-height: 16px;
+        margin-top: 10px; 
+        margin-left: 220px;
+        padding-left: 50px;
+        padding-right: 280px;
+        font-family: Helvetica;
+    }
+
+    .pasta_text5 p{
         position: absolute;
         text-align: justify;
         font-size: 13px;
