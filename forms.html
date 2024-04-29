@@ -4,19 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="forms.css">
-  <title>Order Form</title>
-  <style>
-    
+
+  <title>Jaruy's Burgir</title>
+  <style> 
   </style>
 </head>
+
 <body style=" background-image: url('images/forms_bg.png');">
+
     <div class="header">
         <hr id="top">
         <h1 class="order_title">Burgir & Fries Ni Jaruy</h1>
         <hr>
     </div>
     
-  <form action="#" method="POST">
+  <form action="order" method="POST">
     
     <div class="container1">
       <div class="customer_info">
@@ -38,8 +40,8 @@
             <label for="directions">Description of how to get to the place:</label><br>
             <textarea id="directions" name="directions" cols="30" rows="4" style="width: 670px;" placeholder="Enter Directions" required></textarea><br><br>
     
-            <label for="delivery_datetime">Date/Time of Delivery: </label>
-            <input type="datetime-local" id="delivery_datetime" name="delivery_datetime" style="width: 215px; padding-left: 10px;" required><br><br>
+            <label for="datetime">Date/Time of Delivery: </label>
+            <input type="datetime-local" id="datetime" name="datetime" style="width: 215px; padding-left: 10px;" required><br><br>
           </fieldset>
       </div>
     </div>
@@ -74,9 +76,8 @@
               </div>
 
               <img src="images/cheese.png" alt="cheese">
-              <input type="checkbox" id="with_cheese" name="burgers" value="With Cheese" style="margin-top:20px; margin-left: 10px;">
+              <input type="checkbox" id="with_cheese" name="burgers" value="with_Cheese" style="margin-top:20px; margin-left: 10px;">
               <label for="with_cheese">With Cheese</label><br><br>
-              <!-- Add more burger options here -->
               <br>
 
               <hr>
@@ -210,11 +211,11 @@
                 <label for="feedback">How can we improve the ordering form?</label><br>
                 <textarea id="feedback" name="feedback" cols="30" rows="4" style="width: 670px;"></textarea><br><br>
         
-                <label for="proof_payment" >Upload proof of payment:</label><br>
-                <input type="file" id="proof_payment" name="proof_payment" style="margin-top: 10px;" accept="image/*"><br><br>
+                <label for="payment" >Upload proof of payment:</label><br>
+                <input type="file" id="payment" name="payment" style="margin-top: 10px;" accept="image/*"><br><br>
         
-                <label for="delivery_rating">Rate our Delivery Service (0-10):</label><br>
-                <input type="range" id="delivery_rating" name="delivery_rating" min="0" max="10" step="1"><br><br>
+                <label for="delivery">Rate our Delivery Service (0-10):</label><br>
+                <input type="range" id="delivery" name="delivery" min="0" max="10" step="1"><br><br>
         
                 <label for="delivery_option">Delivery or Pick-up:</label><br>
                 <input type="radio" id="delivery" name="delivery_option" value="Delivery">
